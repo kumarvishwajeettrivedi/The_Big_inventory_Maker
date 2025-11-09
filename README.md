@@ -83,7 +83,7 @@ SEARCH_ENGINE_ID = "your_search_engine_id_here"
 
 Run the script:
 
-python main.py
+python piped-piper.py
 
 
 When prompted:
@@ -136,20 +136,6 @@ Clean up any duplicates manually if needed.
 Ensure API keys have sufficient quota limits.
 
 The script automatically tracks what’s done — so no repetition occurs even after restarts.
-
-🧾 Requirements
-
-Below is an example requirements.txt you can include:
-
-requests
-google-api-python-client
-Pillow
-tqdm
-openai
-python-dotenv
-
-
-Install dependencies with:
 
 pip install -r requirements.txt
 
