@@ -1,4 +1,4 @@
-# 🧠 The Big Inventory Maker
+#  The Big Inventory Maker
 
 **The Big Inventory Maker** is an intelligent automation tool built with **Python** that simplifies and accelerates the process of creating large-scale product inventories.  
 
@@ -10,7 +10,7 @@ Simply provide the **names of the products**, and the script will automatically:
 
 ---
 
-## 🚀 Features
+##  Features
 
 - 🔍 **Automated Image Fetching** — Fetches relevant product images using Google Search API.  
 - 🧠 **AI Description Generation** — Generates descriptive and SEO-friendly product descriptions via Gemini API.  
@@ -36,12 +36,12 @@ Simply provide the **names of the products**, and the script will automatically:
 
 ## ⚙️ Setup & Installation
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 ```bash
 git clone https://github.com/kumarvishwajeettrivedi/The_Big_inventory_Maker.git
 cd The_Big_inventory_Maker
 
-2️⃣ Set Up Python Environment
+2️ Set Up Python Environment
 
 Make sure you have Python 3.11+ installed.
 You can use pyenv or venv to manage environments:
@@ -49,7 +49,7 @@ You can use pyenv or venv to manage environments:
 pyenv shell 3.11.6
 pip install -r requirements.txt
 
-3️⃣ Configure API Keys
+3️ Configure API Keys
 
 Before running the script, configure your API keys:
 
@@ -66,7 +66,7 @@ GEMINI_API_KEY = "your_gemini_api_key_here"
 GOOGLE_API_KEY = "your_google_api_key_here"
 SEARCH_ENGINE_ID = "your_search_engine_id_here"
 
-▶️ How to Use
+ How to Use
 
 Run the script:
 
@@ -91,7 +91,7 @@ Output a clean, structured JSON file (output.json) for your database.
 
 You can manually review the images — delete or deselect any that you don’t want before finalizing your data.
 
-📦 Example JSON Output
+ Example JSON Output
 [
   {
     "name": "Dettol Antiseptic Liquid",
@@ -106,15 +106,15 @@ You can manually review the images — delete or deselect any that you don’t w
 
 This JSON can be directly inserted into your database — just map the fields to your schema.
 
-📊 Accuracy & Performance
+- Accuracy & Performance
 
-🔹 Accuracy: ~87% (Most fetched images and descriptions are correct)
+- Accuracy: ~87% (Most fetched images and descriptions are correct)
 
-🔹 Recommendation: Use clear, specific product names for best results
+- Recommendation: Use clear, specific product names for best results
 
-🔹 Efficiency: Keeps a progress log to avoid reprocessing already-completed items
+- Efficiency: Keeps a progress log to avoid reprocessing already-completed items
 
-🧠 Best Practices
+ Best Practices
 
 Verify /product_images/ after each run to ensure correctness.
 
@@ -126,25 +126,6 @@ The script automatically tracks what’s done — so no repetition occurs even a
 
 pip install -r requirements.txt
 
-👨‍💻 Author
-
-Vishwajeet Kumar
-🎓 B.Tech — NIT Sikkim
-💼 Full Stack Developer | AI Engineer | Embedded Systems Enthusiast
-
-📬 LinkedIn
-
-🐙 GitHub
-
-🪄 License
-
-This project is released under the MIT License.
-You are free to use, modify, and distribute it with proper attribution.
-
-⭐ If you find this project useful, please consider giving it a star on GitHub!
-
-
----
 
 This version is **GitHub-optimized**, uses professional documentation tone, proper markdown formatting, and is fully ready to paste as your `README.md`.  
 
