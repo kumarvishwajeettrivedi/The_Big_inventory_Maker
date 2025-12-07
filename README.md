@@ -33,19 +33,6 @@ Simply provide the **names of the products**, and the script will automatically:
 
 ---
 
-## 🧩 Project Structure
-piped-piper/
-│
-├── image_fetch.py # Fetches and validates product images (add Google API keys here)
-├── description_writer.py # Generates product descriptions using Gemini API (add Gemini key here)
-├── main.py # Main entry point to run the script
-├── product_images/ # Folder where fetched product images are stored
-├── output.json # Generated JSON output for database import
-├── progress_tracker.json # Keeps record of processed items to avoid repetition
-└── README.md # Project documentation
-
-
----
 
 ## ⚙️ Setup & Installation
 
